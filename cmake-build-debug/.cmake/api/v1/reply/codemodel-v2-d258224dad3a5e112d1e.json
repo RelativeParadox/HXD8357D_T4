@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HXD8357D_T4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HXD8357D_T4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HXD8357D_T4-Debug-4d7bc5554a55086a5caf.json",
+					"name" : "HXD8357D_T4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HXD8357D_T4-size::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HXD8357D_T4-size-Debug-dcf5c146a72f08c21300.json",
+					"name" : "HXD8357D_T4-size",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uno_CORE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uno_CORE-Debug-9757487e25dda6ff076b.json",
+					"name" : "uno_CORE",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Daniel/CLionProjects/HXD8357D_T4/cmake-build-debug",
+		"source" : "C:/Users/Daniel/CLionProjects/HXD8357D_T4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

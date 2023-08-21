@@ -1,0 +1,161 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "HXD8357D_T4.elf"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"setup_arduino_target",
+			"generate_arduino_firmware",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"cmake/Platform/Arduino.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 514,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1159,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1167,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -std=gnu++98 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : " -DF_CPU=16000000L -DARDUINO=10815 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino\" -I\"C:/Program Files (x86)/Arduino/libraries\" -I\"C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard\"  -I\"C:/Users/Daniel/CLionProjects/HXD8357D_T4/hxd8357d_t4\" -I\"C:/Users/Daniel/CLionProjects/HXD8357D_T4/hxd8357d_t4/src\""
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "98"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "uno_CORE::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "HXD8357D_T4::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-w -Os -Wl,--gc-sections -w -Os -Wl,--gc-sections  -mmcu=atmega328p",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "libuno_CORE.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lc -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "HXD8357D_T4",
+	"nameOnDisk" : "HXD8357D_T4.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "hxd8357d_t4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "hxd8357d_t4_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "hxd8357d_t4.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

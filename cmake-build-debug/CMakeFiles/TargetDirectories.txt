@@ -1,0 +1,5 @@
+C:/Users/Daniel/CLionProjects/HXD8357D_T4/cmake-build-debug/CMakeFiles/uno_CORE.dir
+C:/Users/Daniel/CLionProjects/HXD8357D_T4/cmake-build-debug/CMakeFiles/HXD8357D_T4.dir
+C:/Users/Daniel/CLionProjects/HXD8357D_T4/cmake-build-debug/CMakeFiles/HXD8357D_T4-size.dir
+C:/Users/Daniel/CLionProjects/HXD8357D_T4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Daniel/CLionProjects/HXD8357D_T4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
